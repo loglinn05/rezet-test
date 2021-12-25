@@ -1,10 +1,12 @@
 // Outputting an array or any another variable.
-function out(value, el_id) {
-	if (Array.isArray(value)) {
-		document.getElementById(el_id).innerHTML += "<pre>" + JSON.stringify(value, null, 4) + "</pre>";
-	} else {
-		document.getElementById(el_id).innerHTML += value;
-	}
+function out(el_id, ...values) {
+    for (let value of values) {
+        if (Array.isArray(value)) {
+            document.getElementById(el_id).innerHTML += "<pre>" + JSON.stringify(value, null, 4) + "</pre>";
+        } else {
+            document.getElementById(el_id).innerHTML += value;
+        }
+    }
 }
 
 Array.prototype.unique = function() {

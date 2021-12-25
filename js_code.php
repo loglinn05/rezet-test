@@ -27,20 +27,13 @@
                 <script type = "text/javascript">
                     let arr = [1, 3, 5, 4, 5, 7];
                     let result = checkCondFulfill(arr);
-                    out("<p>arr: </p>", "test_1");
-                    out(arr, "test_1");
-                    out("<br>", "test_1");
-                    out("<p>result: </p>", "test_1");
-                    out(result, "test_1");
-                    out("<hr>", "test_1");
+                    out("test_1", "<p>arr: </p>", arr, "<br>");
+                    out("test_1", "<p>result: </p>", result, "<hr>");
 
                     arr = [7, 1, 3, 2, 8, 6, 4, 9, 5, 1, 8];
                     result = checkCondFulfill(arr);
-                    out("<p>arr: </p>", "test_1");
-                    out(arr, "test_1");
-                    out("<br>", "test_1");
-                    out("<p>result: </p>", "test_1");
-                    out(result, "test_1");
+                    out("test_1", "<p>arr: </p>", arr, "<br>");
+                    out("test_1", "<p>result: </p>", result);
                 </script>
             </div>
             <div id = "test_2" class = "tab-pane fade mx-5" id = "test_2" role = "tabpanel" aria-labelledby = "test_2-tab">
@@ -50,25 +43,17 @@
                         [4, 5, 6, 8, 1],
                         [7, 8, 9, 4, 5],
                     ];
-                    out("<p>arr: </p>", "test_2");
-                    out(arr, "test_2");
-                    out("<br>", "test_2");
-                    out("<p>result: </p>", "test_2");
-                    out(checkIfContains(arr), "test_2");
-                    out("<hr>", "test_2");
+                    out("test_2", "<p>arr: </p>", arr, "<br>");
+                    out("test_2", "<p>result: </p>", checkIfContains(arr), "<hr>");
 
                     arr = [
                         [9, 6, 3, 1, 5, 7, 6, 2, 4],
                         [4, 2, 1, 6, 2, 4, 3, 8, 9],
                         [7, 5, 8, 9, 8, 3, 1, 5, 7],
                     ];
-                    out("<p>arr: </p>", "test_2");
-                    out(arr, "test_2");
-                    out("<br>", "test_2");
-                    out("<p>result: </p>", "test_2");
-                    out(checkIfContains(arr), "test_2");
+                    out("test_2", "<p>arr: </p>", arr, "<br>");
+                    out("test_2", "<p>result: </p>", checkIfContains(arr));
                 </script>
-                <p>There's nothing here yet.</p>
             </div>
             <div id = "test_3" class = "tab-pane fade mx-5" id = "test_3" role = "tabpanel" aria-labelledby = "test_3-tab">
                 <script type = "text/javascript">
@@ -78,16 +63,10 @@
                         ["He", "loves", "tacos"]
                     ];
                     let str_aligns = ["LEFT", "RIGHT", "LEFT"];
-                    out("<p>strings: </p>", "test_3");
-                    out(strs, "test_3");
-                    out("<hr>", "test_3");
-                    out("<p>alignments: </p>", "test_3");
-                    out(str_aligns, "test_3");
-                    out("<hr>", "test_3");
-                    out("<p>result: </p>", "test_3");
-                    out(formatText(strs, str_aligns), "test_3");
+                    out("test_3", "<p>strings: </p>", strs, "<hr>");
+                    out("test_3", "<p>alignments: </p>", str_aligns, "<hr>");
+                    out("test_3", "<p>result: </p>", formatText(strs, str_aligns));
                 </script>
-                <p>There's nothing here yet.</p>
             </div>
         </div>
     </div>
