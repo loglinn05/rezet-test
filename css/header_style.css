@@ -1,0 +1,51 @@
+html, body, header, section, .view {
+    height: 100%;
+}
+
+@media (max-width:767px) {
+    html, body, header, section
+    .view {
+        height: 100vh;
+    }
+
+    div.card {
+        margin-bottom: 4em;
+    }
+
+}
+
+.top-nav-collapse {
+    background-color: #9e9e9e !important;
+}
+
+.navbar:not(.top-nav-collapse) {
+    background: transparent !important;
+}
+
+a, span {
+    text-shadow: 1px 1px 2px #000;
+}
+
+#image {
+    margin-top: -5em;
+}
+
+h6 {
+    line-height: 1.7;
+}
+
+@media (max-width:991px) {
+    .navbar:not(.top-nav-collapse) {
+        background: #9e9e9e !important;
+    }
+
+    .btn-outline-white {
+        display: block;
+    }
+
+}
+
+.hr-light {
+    border-top: 3px solid #fff;
+    width: 80px;
+}
