@@ -2,24 +2,24 @@
     <div class = "container text-center">
         <div class = "row">
             <div class = "col-md-4 mx-auto">
-                <h5 class = "font-weight-bold text-uppercase mt-3 mb-4 text-dark" style = "color:#fff;">Contact us</h5>
+                <h5 class = "font-weight-bold text-uppercase mt-3 mb-4 text-dark">Contact us</h5>
                 <ul class = "list-unstyled">
                     <li>
-                        <a href="#!">
+                        <a href = "tel:+380631392847">
                             <i class = "fas fa-phone-volume text-muted"></i>
                             <h6>+380 (63) 139 2847</h6>
                         </a>
                     </li>
                     <li>
-                        <a href="#!">
+                        <a href = "mailto:loglinn05@gmail.com">
                             <i class = "fas fa-envelope-open-text text-muted"></i>
                             <h6>loglinn05@gmail.com</h6>
                         </a>
                     </li>
                     <li>
-                        <a href="#!">
-                            <i class = "fas fa-hotel text-muted"></i>
-                            <h6>г. Запорожье</h6>
+                        <a href = "https://github.com/loglinn05">
+                            <i class = "fab fa-github"></i>
+                            <h6>GitHub</h6>
                         </a>
                     </li>
                 </ul>
@@ -32,25 +32,25 @@
                 <h5 class = "font-weight-bold text-uppercase mt-3 mb-4 text-dark" >Our social media</h5>
                 <ul class = "list-unstyled">
                     <li>
-                        <a href="">
-                            <i class = "fab fa-google-plus-g fa-2x"></i>
+                        <a href = "https://vk.com/id626459159">
+                            <i class="fab fa-vk"></i>
                         </a>
                         <br>
                     </li><br>
                     <li>
-                        <a href="">
+                        <a href = "https://www.instagram.com/loglinn05/">
                             <i class = "fab fa-instagram fa-2x"></i>
                         </a>
                         <br>
                     </li><br>
                     <li>
-                        <a href="">
+                        <a href = "https://www.facebook.com/loglinn05">
                             <i class = "fab fa-facebook fa-2x"></i>
                         </a>
                         <br>
                     </li><br>
                     <li>
-                        <a href="">
+                        <a href = "https://twitter.com/loglinn05">
                             <i class = "fab fa-twitter fa-2x"></i>
                         </a>
                     </li>
@@ -60,7 +60,7 @@
     </div>
     <div class = "footer-copyright text-center py-3">
         <small class = "ml-3">© 2019 Copyright:</small>
-        <a href=""><small>loglinn05@gmail.com</small></a>
+        <a href = "mailto:loglinn05@gmail.com"><small>loglinn05@gmail.com</small></a>
     </div>
 </footer>
 <script type = "text/javascript" src = "js/jquery.min.js"></script>
