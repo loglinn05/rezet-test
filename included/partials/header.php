@@ -18,18 +18,33 @@
     </head>
     <body>        
         <header>
-            <nav class = "navbar navbar-expand-lg navbar-dark fixed-top  scrolling-navbar ">
-                <div class = "container">
-                    <a class = "navbar-brand font-weight-bold" href="#" data-toggle = "modal" data-target="#modalPush">
-                        <img src = "img/logo.png"  class = "d-inline-block align-center ">
-                        <strong style = "color:#fff; text-shadow: 2px 2px 3px #bbb;">&nbsp; Test</strong>
-                    </a>
-                    <button class = "navbar-toggler" type = "button" data-toggle = "collapse" data-target="#navbarSupportedContent-7" aria-controls = "navbarSupportedContent-7" aria-expanded = "false" aria-label = "Toggle navigation">
+            <nav class = "navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
+                <a class = "navbar-brand font-weight-bold" href="#" data-toggle = "modal" data-target="#modalPush">
+                    <img src = "img/logo.png"  class = "d-inline-block align-center mr-2">
+                    <strong style = "color:#fff; text-shadow: 2px 2px 3px #bbb;">Test</strong>
+                </a>
+                <button class = "navbar-toggler" type = "button" data-toggle = "collapse" data-target="#navMenu" aria-controls = "navMenu" aria-expanded = "false" aria-label = "Toggle text">
                     <span class = "navbar-toggler-icon"></span>
-                    </button>
-                </div>
+                </button>
+                <div class = "collapse navbar-collapse text-center" id = "navMenu">
+                    <ul class = "navbar-nav ml-auto nav-flex-icons justify-content-center">
+                        <li class = "nav-item">
+                            <a class = "nav-link waves-effect waves-light" href = "viber://chat?number=%2B380631392847" style = "border-radius: 100%;">
+                                <i class = "fab fa-viber" style = "font-size: 3em;"></i>
+                            </a>
+                        </li>
+                        <li class = "nav-item">
+                            <a class = "nav-link waves-effect waves-light" href = "tg://resolve?domain=loglinn05" style = "border-radius: 100%;">
+                                <i class = "fab fa-telegram-plane" style = "font-size: 3em;"></i>
+                            </a>
+                        </li>
+                    </ul>
+                    <span class = "navbar-text white-text">
+                        You can call me at <a href = "tel:+380631392847">+380 (63) 139 2847</a>
+                    </span>
+                </div>                
             </nav>
-            <div id = "image" class = "view" style = "background-image: url('img/header.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center center;">
+            <div id = "image" class = "view">
                 <div class = "mask rgba-black-light d-flex align-items-center">
                     <div class = "container">
                         <div class = "row mt-5">

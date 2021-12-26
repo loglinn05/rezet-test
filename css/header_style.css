@@ -2,18 +2,6 @@ html, body, header, section, .view {
     height: 100%;
 }
 
-@media (max-width:767px) {
-    html, body, header, section
-    .view {
-        height: 100vh;
-    }
-
-    div.card {
-        margin-bottom: 4em;
-    }
-
-}
-
 .top-nav-collapse {
     background-color: #9e9e9e !important;
 }
@@ -30,7 +18,25 @@ h6 {
     line-height: 1.7;
 }
 
-@media (max-width:991px) {
+.navbar-text {
+    background-color: transparent;
+    width: 100%;
+    text-align: right;
+}
+
+.hr-light {
+    border-top: 3px solid #fff;
+    width: 80px;
+}
+
+#image {
+    background-image: url('../img/header.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+@media (max-width: 991px) {
     .navbar:not(.top-nav-collapse) {
         background: #9e9e9e !important;
     }
@@ -39,9 +45,16 @@ h6 {
         display: block;
     }
 
+    .navbar-text {
+        background-color: rgba(255, 255, 255, 0.25);
+        border-radius: 10px;
+        text-align: center;
+    }
+
 }
 
-.hr-light {
-    border-top: 3px solid #fff;
-    width: 80px;
+@media (max-width: 767px) {
+    html, body, header, section, .view {
+        height: 100vh;
+    }
 }

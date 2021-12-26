@@ -2,7 +2,7 @@
     <div class = "container text-center">
         <div class = "row">
             <div class = "col-md-4 mx-auto">
-                <h5 class = "font-weight-bold text-uppercase mt-3 mb-4 text-dark">Contact us</h5>
+                <h5 class = "font-weight-bold text-uppercase mt-3 mb-4 text-white" style = "text-shadow: 0px 0px 10px #000;">Contact us</h5>
                 <ul class = "list-unstyled">
                     <li>
                         <a href = "tel:+380631392847">
@@ -24,12 +24,11 @@
                     </li>
                 </ul>
             </div>
-            <hr class = "clearfix w-100 d-md-none">
             <div class = "col-md-4 mx-auto ">
-                <h3 class=" text-uppercase mt-3 mb-4 animated text-white flipInX slow infinite" >Test</h3>
+                <h3 class=" text-uppercase mt-3 mb-4 animated text-white flipInX slow infinite">Test</h3>
             </div>
             <div class = "col-md-4 mx-auto">
-                <h5 class = "font-weight-bold text-uppercase mt-3 mb-4 text-dark" >Our social media</h5>
+                <h5 class = "font-weight-bold text-uppercase mt-3 mb-4 text-white" style = "text-shadow: 0px 0px 10px #000;">Our social media</h5>
                 <ul class = "list-unstyled">
                     <li>
                         <a href = "https://vk.com/id626459159">

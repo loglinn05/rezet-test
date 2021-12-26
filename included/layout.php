@@ -10,11 +10,11 @@
     <div class = "container-fluid">
         <div class = "row text-center alert">
             <div class = "col-12">
-                <h1 class = "h1-reponsive text-uppercase font-weight-bold mb-0 pt-md-5 pt-5 wow fadeInDown" data-wow-delay = "0.3s"><strong><?= $header ?></strong></h1>
+                <h1 class = "h1-reponsive text-uppercase font-weight-bold mb-0 pt-md-5 pt-5 wow fadeInDown" id = "task" data-wow-delay = "0.3s"><strong><?= $header ?></strong></h1>
             </div>
         </div>
     </div>
-    <div class = "container col-8 mt-5">
+    <div class = "container col-lg-8 mt-5">
         <ul class = "nav nav-tabs" id = "myTab" role = "tablist">
             <li class = "nav-item">
                 <a class = "nav-link active" id = "test_1-tab" data-toggle = "tab" href="#test_1" role = "tab" aria-controls = "test_1" aria-selected = "true">Test 1</a>
@@ -27,13 +27,13 @@
             </li>
         </ul>
         <div class = "tab-content border border-dark rounded-lg my-3" id = "myTabContent">
-            <div class = "tab-pane fade show active mx-5" id = "test_1" role = "tabpanel" aria-labelledby = "test_1-tab">
+            <div class = "tab-pane fade show active mx-sm-5" id = "test_1" role = "tabpanel" aria-labelledby = "test_1-tab">
                 <?php include $tab_1 ?>
             </div>
-            <div class = "tab-pane fade mx-5" id = "test_2" role = "tabpanel" aria-labelledby = "test_2-tab">
+            <div class = "tab-pane fade mx-sm-5" id = "test_2" role = "tabpanel" aria-labelledby = "test_2-tab">
                 <?php include $tab_2 ?>
             </div>
-            <div class = "tab-pane fade mx-5" id = "test_3" role = "tabpanel" aria-labelledby = "test_3-tab">
+            <div class = "tab-pane fade mx-sm-5" id = "test_3" role = "tabpanel" aria-labelledby = "test_3-tab">
                 <?php include $tab_3 ?>
             </div>
         </div>

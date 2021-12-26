@@ -13,27 +13,26 @@ body {
 
 p {
     font-size: 1.3em;
-    color:;
 }
 
 pre {
     font-size: 1.3em;
 }
 
-.nav-item .nav-link {
+.nav-tabs .nav-item .nav-link {
     color: #3e2723;
 }
 
-.nav-item .nav-link:hover {
+.nav-tabs .nav-item .nav-link:hover {
     background-color: #a1887f !important;
 }
 
-.nav-item .nav-link.active {
+.nav-tabs .nav-item .nav-link.active {
     color: burlywood;
     background-color: #5d4037;
 }
 
-.nav-item .nav-link:active {
+.nav-tabs .nav-item .nav-link:active {
     color: #3e2723;
     background-color: #5d4037;
 }
@@ -72,4 +71,56 @@ footer {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
+}
+
+@media (max-width: 576px) {
+    .tab-pane {
+        margin-left: 1.5em;
+        margin-right: 1.5em;
+    }
+    #task {
+        font-size: 2em;
+    }
+    p {
+        font-size: 1.2em;
+    }
+    pre {
+        font-size: 1.2em;
+    }
+}
+
+@media (max-width: 470px) {
+    #task {
+        font-size: 1.75em;
+    }
+}
+
+@media (max-width: 395px) {
+    #task {
+        font-size: 1.5em;
+    }
+    p {
+        font-size: 1.1em;
+    }
+    pre {
+        font-size: 1.1em;
+    }
+}
+
+@media (max-width: 365px) {
+    p {
+        font-size: 1em;
+    }
+    pre {
+        font-size: 1em;
+    }
+}
+
+@media (max-width: 335px) {
+    p {
+        font-size: 0.9em;
+    }
+    pre {
+        font-size: 0.9em;
+    }
 }
