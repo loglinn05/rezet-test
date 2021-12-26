@@ -10,7 +10,7 @@
     <div class = "container-fluid">
         <div class = "row text-center alert">
             <div class = "col-12">
-                <h1 class = "h1-reponsive text-uppercase font-weight-bold mb-0 pt-md-5 pt-5 wow fadeInDown" data-wow-delay = "0.3s"><strong>Тестовое задание от компании "ReZet"</strong></h1>
+                <h1 class = "h1-reponsive text-uppercase font-weight-bold mb-0 pt-md-5 pt-5 wow fadeInDown" data-wow-delay = "0.3s"><strong>Тестовое задание от компании "ReZet", выполненное на PHP</strong></h1>
             </div>
         </div>
     </div>
