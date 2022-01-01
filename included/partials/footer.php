@@ -5,9 +5,9 @@
                 <h5 class = "font-weight-bold text-uppercase mt-3 mb-4 text-white" style = "text-shadow: 0px 0px 10px #000;">Contact us</h5>
                 <ul class = "list-unstyled">
                     <li>
-                        <a href = "tel:+380631392847">
+                        <a href = "tel:+380916144332">
                             <i class = "fas fa-phone-volume text-muted"></i>
-                            <h6>+380 (63) 139 2847</h6>
+                            <h6>+380 (91) 614 4332</h6>
                         </a>
                     </li>
                     <li>

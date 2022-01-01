@@ -29,7 +29,7 @@
                 <div class = "collapse navbar-collapse text-center" id = "navMenu">
                     <ul class = "navbar-nav ml-auto nav-flex-icons justify-content-center">
                         <li class = "nav-item">
-                            <a class = "nav-link waves-effect waves-light" href = "viber://chat?number=%2B380631392847" style = "border-radius: 100%;">
+                            <a class = "nav-link waves-effect waves-light" href = "viber://chat?number=%2B380916144332" style = "border-radius: 100%;">
                                 <i class = "fab fa-viber" style = "font-size: 3em;"></i>
                             </a>
                         </li>
@@ -40,7 +40,7 @@
                         </li>
                     </ul>
                     <span class = "navbar-text white-text">
-                        You can call me at <a href = "tel:+380631392847">+380 (63) 139 2847</a>
+                        You can call me at <a href = "tel:+380916144332">+380 (91) 614 4332</a>
                     </span>
                 </div>                
             </nav>
