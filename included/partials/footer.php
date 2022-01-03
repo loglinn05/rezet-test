@@ -31,8 +31,8 @@
                 <h5 class = "font-weight-bold text-uppercase mt-3 mb-4 text-white" style = "text-shadow: 0px 0px 10px #000;">Our social media</h5>
                 <ul class = "list-unstyled">
                     <li>
-                        <a href = "https://vk.com/id626459159">
-                            <i class="fab fa-vk"></i>
+                        <a href = "https://vk.com/loglinn05">
+                            <i class = "fab fa-vk"></i>
                         </a>
                         <br>
                     </li><br>
