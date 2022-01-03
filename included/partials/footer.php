@@ -25,7 +25,7 @@
                 </ul>
             </div>
             <div class = "col-md-4 mx-auto ">
-                <h3 class=" text-uppercase mt-3 mb-4 animated text-white flipInX slow infinite">Test</h3>
+                <h3 class = "text-uppercase mt-3 mb-4 animated text-white flipInX slow infinite">Test</h3>
             </div>
             <div class = "col-md-4 mx-auto">
                 <h5 class = "font-weight-bold text-uppercase mt-3 mb-4 text-white" style = "text-shadow: 0px 0px 10px #000;">Our social media</h5>
